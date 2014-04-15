@@ -78,7 +78,7 @@ function addRay(svg,data,origin,angle,r,color,refract)
 {
 	if (svg == middle)
 	{
-		angle = tau/5		
+		angle = tau/6.6		
 	}
 
 	polCoords     = {r:r,theta:angle}
