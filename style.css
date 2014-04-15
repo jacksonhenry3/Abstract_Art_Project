@@ -3,6 +3,7 @@ body
 	margin: 0;
 	padding:0px;
 	overflow:hidden;
+	text-align: center;
 	
 }
 
@@ -10,7 +11,7 @@ body
 {
 	position: absolute;
 	left:0;
-	top:0;
+	top:100px;
 	background-color: #382f70;
 	width:34%;
 	box-shadow:0 0 50px rgba(0,0,0,.6);
@@ -19,7 +20,7 @@ body
 {
 	position: absolute;
 	left:33.33%;
-	top:0;
+	top:100px;
 	background-color: #90c5a9;
 	width:34%;
 	box-shadow:0 0 50px rgba(0,0,0,.6);
@@ -28,7 +29,7 @@ body
 {
 	position: absolute;
 	left:66.66%;
-	top:0;
+	top:100px;
 	background-color: #ef6d3b;
 	width:34%;
 	box-shadow:0 0 50px rgba(0,0,0,.6);
@@ -36,4 +37,16 @@ body
 svg
 {
 	-webkit-transform: translate3d(0, 0, 0);
+}
+
+h1
+{
+	height: 100px;
+	font-size: 50px;
+	color:white;
+	margin:0px;
+	padding:10px;
+	background-color: #222;
+	font-family: 'Plaster', cursive;
+	text-shadow:2px 2px 0px rgba(0,0,0,.3);
 }
