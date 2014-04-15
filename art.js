@@ -214,7 +214,7 @@ function replot(svg,rayData,cloudData)
 					}
 					if (svg == middle)
 					{
-						addRay(svg,rayData,origin ,0, particleRadius*2 ,"rgba(255,255,255,.3)"   , false)
+						addRay(svg,rayData,center ,0, particleRadius*2 ,"rgba(255,255,255,.3)"   , false)
 					}
 					
 				}
